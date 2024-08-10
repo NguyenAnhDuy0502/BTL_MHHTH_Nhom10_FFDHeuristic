@@ -23,8 +23,8 @@ public class Main {
             System.out.println("Nhập thông tin cho loại Item thứ " + (i + 1) + ":");
             int d, l;
 
+            System.out.print("Note: Nhập số Item và chiều dài Item phải >=0, chiều dài Item không được lớn hơn module object \n");
             do {
-                System.out.print("Note: Nhập số Item và chiều dài Item phải >=0, chiều dài Item khng được  lớn hơn module object \n");
                 System.out.print("Nhập số Item cần cắt: ");
                 d = scanner.nextInt();
                 System.out.print("Nhập chiều dài Item: ");
